@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentos on Maxive | Infraestructura On Demand</title>
+    <link>https://maxive.pe/blog/</link>
+    <description>Recent content in Documentos on Maxive | Infraestructura On Demand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-PE</language>
+    <lastBuildDate>Sat, 07 Jul 2018 18:23:33 +0600</lastBuildDate>
+    
+	<atom:link href="https://maxive.pe/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Para desarrolladores</title>
+      <link>https://maxive.pe/blog/para-desarrolladores/</link>
+      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/para-desarrolladores/</guid>
+      <description>Entornos de Desarrollo con Maxive. Si usted es un desarrollador, Maxive aislará las dependencias y su configuración dentro de un único entorno desechable y consistente, sin sacrificar ninguna de las herramientas con las que está acostumbrado (editores, navegadores, depuradores, etc.). Una vez que usted u otra persona cree un único archivo Maxive, solo necesita que Maxive Up haga todo el trabajo, instalará y configurará para que puedas trabajar. Otros miembros de su equipo podrán crear sus entornos de desarrollo desde la misma configuración, por lo tanto, si trabaja en Linux, Mac OS X o Windows, todos los miembros de su equipo ejecutan código en el mismo entorno, contra las mismas dependencias, todos configurados de la misma manera.</description>
+    </item>
+    
+    <item>
+      <title>Para Operadores</title>
+      <link>https://maxive.pe/blog/para-operadores/</link>
+      <pubDate>Sun, 08 Jul 2018 12:20:58 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/para-operadores/</guid>
+      <description>Fácil Operación y simplificando las tareas del DevOps Si usted es Ingeniero de operaciones o Ingeniero de DevOps, Maxive le ofrece un entorno desechable y un flujo de trabajo constante para desarrollar y probar scripts de administración de infraestructura. Puede probar rápidamente cosas como scripts de shell, libros de cocina de Chef, módulos de Puppet o Ansible; y más, utilizando la virtualización local con VMware. Luego, con la misma configuración, puede probar estos scripts en nubes remotas como AWS o RackSpace con el mismo flujo de trabajo.</description>
+    </item>
+    
+    <item>
+      <title>Para Diseñadores</title>
+      <link>https://maxive.pe/blog/para-dise%C3%B1adores/</link>
+      <pubDate>Sun, 08 Jul 2018 12:18:46 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/para-dise%C3%B1adores/</guid>
+      <description>Flujo simple para efocarse en el diseño. Si usted es diseñador, Maxive configurará automáticamente todo lo que se requiere para esa aplicación web a fin de que se concentre en hacer lo que mejor sabe hacer: diseñar. Una vez que un desarrollador configura Maxive, no necesita preocuparse por cómo hacer que esa aplicación vuelva a funcionar. No más molestias a otros desarrolladores para que te ayuden a arreglar tu entorno para que puedas probar diseños.</description>
+    </item>
+    
+    <item>
+      <title>Hacia una nube múltiple</title>
+      <link>https://maxive.pe/blog/hacia-nubes-multiples/</link>
+      <pubDate>Sun, 08 Jul 2018 12:11:29 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/hacia-nubes-multiples/</guid>
+      <description>El desafío El cambio de infraestructura estática y consolidada a dinámica y distribuida presenta desafíos para las personas clave que administran la infraestructura:
+Operaciones El desafío para los equipos de operaciones que se mueven a la nube, es permitir la automatización a través de la infraestructura como código, al mismo tiempo que se adopta la inevitable heterogeneidad de los diferentes proveedores de la nube.
+Seguridad El desafío para los profesionales de seguridad es replantearse el enfoque de &amp;ldquo;castillo y foso&amp;rdquo; para la seguridad basada en el perímetro y reconsiderar la seguridad de manera integral en toda la flota dinámica y distribuida.</description>
+    </item>
+    
+    <item>
+      <title>Fuentes de Verdad</title>
+      <link>https://maxive.pe/blog/fuentes-de-verdad/</link>
+      <pubDate>Sat, 07 Jul 2018 17:04:41 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/fuentes-de-verdad/</guid>
+      <description>Blockchain y Contratos Inteligentes Si la minería de bitcoins aplica ahora a los contratos inteligentes, maxive esta aportando escenarios de investigación de lo que se denominan &amp;ldquo;fuentes de verdad&amp;rdquo; como aquellos cambios esperados socialmente para eliminar intermediarios en todo proceso de confianza.
+Las transacciones sobre blockchains impulsan los contratos inteligentes. Slock.it, otra start up, está desarrollando cerrojos físicos que tiene una existencia digital en Ethereum. Cuando se envía vía ether, este contrato inteligente abre la cerradura.</description>
+    </item>
+    
+    <item>
+      <title>De pie sobre los hombros de gigantes</title>
+      <link>https://maxive.pe/blog/de-pie-sobre-los-hombros/</link>
+      <pubDate>Sat, 07 Jul 2018 17:04:02 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/de-pie-sobre-los-hombros/</guid>
+      <description>Maxive&amp;hellip; de pie sobre los hombres de gigantes. Cada acción que tomamos nos mueve en alguna dirección. La visión es un punto mucho más allá de lo que una sola acción puede llevarnos. Tener una visión nos permite juzgar si una acción nos acerca o aleja de nuestra visión. Sin visión, cada acción grande o pequeña no es mejor que una caminata aleatoria con la esperanza de que terminemos en un lugar en el que nos gustaría estar.</description>
+    </item>
+    
+    <item>
+      <title>Nazka la Vision Latinoamericana</title>
+      <link>https://maxive.pe/blog/nazka-la-vision/</link>
+      <pubDate>Sat, 07 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://maxive.pe/blog/nazka-la-vision/</guid>
+      <description>Nazka La visión de la Fundación Nazka es amplia y se extiende a muchos ámbitos diferentes, que dependen del acceso a una única fuente de verdad. Los datos son tan valiosos como válidos. Garantizar lo que es verdadero es precisamente lo que permite la tecnología de Nazka. Nazka logra consenso sobre el estado de las cuestiones en una red descentralizada. Al tener una fuente criptográficamente segura de verdad unificada, esto va a permitir que se origine una gran explosión de innovación cámbrica tecnológica.</description>
+    </item>
+    
+  </channel>
+</rss>
