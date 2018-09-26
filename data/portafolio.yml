@@ -1,0 +1,42 @@
+enable  : true
+topTitle: QUE ESTAMOS HACIENDO
+title   : DIA A DIA CON MAXIVE.
+subtitle: Maxive es una tecnología en evolución y estamos dedicando nuestro tiempo para convertirlo en una Solución Genial!
+
+filtermenu :
+  - name      : Eventos
+    category  : Eventos
+
+  - name      : Instituto
+    category  : Instituto
+
+  - name      : Desarrollo
+    category  : Desarrollo
+
+  - name      : Coworking
+    category  : Coworking
+
+item   :
+  - title : Gobierno y Tecnología
+    imagen : imagenes/portafolio/portafolio-1.jpg
+    category  : Eventos
+
+  - title : Coworking
+    imagen : imagenes/portafolio/portafolio-2.jpg
+    category  : Instituto Coworking
+
+  - title : Charlas
+    imagen : imagenes/portafolio/portafolio-3.jpg
+    category  : Eventos Desarrollo
+
+  - title : Labs iGob
+    imagen : imagenes/portafolio/portafolio-4.jpg
+    category  : Instituto
+
+  - title : IOTA Labs
+    imagen : imagenes/portafolio/portafolio-5.jpg
+    category  : Coworking
+
+  - title : Mineria Bitcoin
+    imagen : imagenes/portafolio/portafolio-6.jpg
+    category  : Desarrollo

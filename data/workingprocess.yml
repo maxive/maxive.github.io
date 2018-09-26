@@ -1,0 +1,28 @@
+enable  : true
+topTitle: Flujo de Trabajo Simple
+title   : El Proceso con Maxive
+subtitle: Si bien es genial trabajar con una máquina virtual fácilmente, mucha gente no quiere editar archivos usando editores basados ​​en terminales a través de SSH. Afortunadamente con Maxive no es necesario. Al usar carpetas sincronizadas , Maxive sincronizará automáticamente sus archivos a y desde la máquina invitada.
+item    :
+  - number  : 1
+    icon    : tf-ion-ios-list-outline
+    title   : Define la Infraestructura
+    description : >
+      Crea una Carpeta Principal con Maxive y configura tu primer archivo de configuración Maxivefile.
+
+  - number  : 2
+    icon    : tf-ion-ios-speedometer-outline
+    title   : Aumenta tu productividad
+    description : >
+      Explora en la Nube de Maxive y busca máquinas virtuales preconfiguradas para un despliegue mas úrgente.
+
+  - number  : 3
+    icon    : tf-ion-ios-box-outline
+    title   : Ejecuta una Caja Maxive
+    description : >
+      Al ejecutar maxive, las Máquinas Virtuales se crean a partir de Cajas o Boxes configurados con el Maxivefile, este archivo puede versionarse y utilizar git para controlar sus cambios.
+
+  - number  : 4
+    icon    : tf-ion-pull-request
+    title   : Aprende y Evoluciona
+    description : >
+      La Infraestructura es portable como código, puede adémas versionarse y evolucionar, luego reaprovisionarse cuando cambiamos su configuración para desplegarse con mayor eficiencia

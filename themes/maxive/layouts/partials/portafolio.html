@@ -1,0 +1,52 @@
+{{ if .Site.Data.portafolio.enable }}
+{{ "<!-- Start Portafolio Section -->" | safeHTML }}
+<section class="portafolio section" id="portafolio">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Data.portafolio.topTitle }}
+                        <h4>{{ . }}</h4>
+                    {{ end }}
+                    {{ with .Site.Data.portafolio.title }}
+                        <h2>{{ . }}</h2>
+                        <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Data.portafolio.subtitle }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portafolio-filter">
+                    <button type="button" data-filter="all">TODO</button>
+                    {{ range .Site.Data.portafolio.filtermenu }}
+                        <button type="button" data-filter=".{{ .category }}">{{ .name }}</button>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row portafolio-items-wrapper">
+            {{ range .Site.Data.portafolio.item }}
+                <div class="col-6 col-md-4 padding-0 mix {{.category}}">
+                    <div class="portafolio-block">
+                        <img class="img-fluid" src="{{ .imagen | absURL }}" alt="portafolio-imagen">
+                        <div class="caption">
+                            <a class="search-icon" href="{{ .imagen | absURL }}" data-lightbox="imagen-1">
+                                <i class="tf-ion-ios-search-strong"></i>
+                            </a>
+                            <h4>
+                                <a href="">{{ .title }}</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    <!-- end row -->
+</section>
+{{ "<!-- End section -->" | safeHTML }}
+{{ end }}

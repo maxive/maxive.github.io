@@ -1,0 +1,21 @@
+language: python
+
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+
+script:
+    - hugo
+
+after_success: |
+    if [ -n "$GITHUB_API_KEY" ]; then
+    git checkout --orphan master
+    git rm -rf .
+    mv public/* .
+    echo 'maxive.pe' > ./CNAME
+    rm -rf public hugo_*
+    git add -f --ignore-errors --all
+    git -c user.name='clebaresu' -c user.email='clebaresu@gmail.com' commit -m init
+    git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG master
+    fi

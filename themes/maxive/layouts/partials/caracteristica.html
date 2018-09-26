@@ -1,0 +1,23 @@
+{{ if .Site.Data.caracteristica.enable }}
+{{ "<!-- Feature Section Start -->" | safeHTML }}
+<section class="Servicios section-xs" id="Servicios">
+    <div class="container">
+        <div class="row">
+            {{ range .Site.Data.caracteristica.item }}
+                {{ "<!-- Single Feature Item -->" | safeHTML }}
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="servicios-block color-bg text-center">
+                        <div class="servicios-icon text-center">
+                            <i class="{{ .icon }}"></i>
+                        </div>
+                        <h3>{{ .title }}</h3>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+                {{ "<!-- End Single Feature Item -->" | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- End Feature section -->" | safeHTML }}
+{{ end }}

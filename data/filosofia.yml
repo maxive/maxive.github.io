@@ -1,0 +1,25 @@
+enable    : true
+topTite   : Breve Reseña
+title     : Sobre  Nosotros.
+subtitle  : Maxive Tecnología en tu idioma !
+tabItem   :
+  - id        : filosofia
+    title     : Nuestra Filosofía
+    heading   : El Tao de Maxive
+    content   : >
+      Enfocado en el objetivo y el flujo de trabajo no en la tecnología subyacente, esta mejorará de todos modos, enfoquemonos en simplificar la adopcion de nuevas herramientas con la mejor experiencia de ususario!
+    imagen     : imagenes/empresa/empresa-1.jpg
+
+  - id        : mission
+    title     : Misión
+    heading   : Nuestra Misión
+    content   : >
+      El cambio de infraestructura estática y consolidada a dinámica y distribuida presenta desafíos para las personas clave que administran la infraestructura!
+    imagen     : imagenes/empresa/empresa-2.jpg
+
+  - id        : vision
+    title     : Visión
+    heading   : Nuestra Visión
+    content   : >
+      La tecnología está aportando nuevas fuentes de confianza y de verdad, maxive es un actor tecnológico en las tecnologías que administran valor social, debe ser inmutable, automatizable y resiliente !
+    imagen     : imagenes/empresa/empresa-3.jpg

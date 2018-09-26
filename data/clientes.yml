@@ -1,0 +1,27 @@
+enable    : true
+title     : Nos preocupamos por nuestro trabajo
+description: >
+  Estamos apoyando a organizaciones simplificando el cambio de sus tecnologías, ¡increible pero es el gobierno el que avanza mas lento! pero tenemos esperanzas...
+imagen     : imagenes/acerca/acerca-1.jpg
+servicelist:
+  - name    : TI descentralizada
+  - name    : Seguridad Electrónica
+  - name    : Baremetal de Valor
+  - name    : Flujo de automatización
+clientesLogo:
+  - imagen   : imagenes/clientes-logo/logo-01.png
+  - imagen   : imagenes/clientes-logo/logo-02.png
+  - imagen   : imagenes/clientes-logo/logo-03.png
+  - imagen   : imagenes/clientes-logo/logo-04.png
+  - imagen   : imagenes/clientes-logo/logo-05.png
+  - imagen   : imagenes/clientes-logo/logo-06.png
+  - imagen   : imagenes/clientes-logo/logo-07.png
+  - imagen   : imagenes/clientes-logo/logo-08.png
+  - imagen   : imagenes/clientes-logo/logo-09.png
+  - imagen   : imagenes/clientes-logo/logo-10.png
+  - imagen   : imagenes/clientes-logo/logo-11.png
+  - imagen   : imagenes/clientes-logo/logo-12.png
+  - imagen   : imagenes/clientes-logo/logo-13.png
+  - imagen   : imagenes/clientes-logo/logo-14.png
+  - imagen   : imagenes/clientes-logo/logo-15.png
+  

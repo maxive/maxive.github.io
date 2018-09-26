@@ -1,0 +1,121 @@
+baseURL = "https://maxive.pe/"
+languageCode = "es-PE"
+title = "Maxive | Infraestructura On Demand"
+theme = "maxive"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Visión"
+        url     = "/acerca"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Servicios"
+        url     = "/servicios"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Portafolio"
+        url     = "/portafolio"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Documentos"
+        url     = "/blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contacto"
+        url     = "/contacto"
+        weight  = 6
+    
+    # Footer Servicios Menu
+    [[menu.servicios]]
+        name    = "Empresa"
+        url     = "/servicios"
+        weight  = 1
+    [[menu.servicios]]
+        name    = "Gobierno"
+        url     = "/servicios"
+        weight  = 2
+    [[menu.servicios]]
+        name    = "Educación y Formación"
+        url     = "/servicios"
+        weight  = 3
+
+    # Footer Quick links Menu
+    [[menu.quicklink]]
+        name    = "Asociados"
+        url     = "/acerca"
+        weight  = 1
+    [[menu.quicklink]]
+        name    = "Acerca"
+        url     = "/acerca"
+        weight  = 2
+    [[menu.quicklink]]
+        name    = "FAQ's"
+        url     = "/acerca"
+        weight  = 3
+    [[menu.quicklink]]
+        name    = "Noticias"
+        url     = "/acerca"
+        weight  = 4
+
+# Site Params
+[params]
+    home = "Principal"
+    logo = "imagenes/logo.png"
+    dateFormat = "6 January 2006"
+    footerDescription = "Página desarrollada por iGob el Instituto de Tecnología y Gobierno en Perú."
+
+    # Hero Area Section
+    [params.hero]
+        enable  = true
+        heading = "Proporciona infraestructura de valor para cualquier aplicación"
+        description = "La internet esta cambiando tanto para los humanos como para las cosas (IoT), las organizaciones necesitan recrear y orquestar la infraestructura para producir soluciones y evolucionar en conjunto. Maxive es una sólida propuesta de valor para lograrlo."
+        button  = true
+        btnText = "Saber Mas"
+        btnURL  = "/blog"
+        videoThumb = "imagenes/slider/maxive.gif"
+
+    # acerca 2 Section
+    [params.acercaSm]
+        enable  = true
+        title   = "Entornos virtuales bajo demanda"
+        description = "Maxive proporciona entornos de trabajo fáciles de configurar, reproducibles y portátiles, construidos sobre la tecnología estándar de la industria y controlados por un único flujo de trabajo consistente para ayudar a maximizar la productividad y la flexibilidad de usted y su equipo."
+
+    # Blog Section On Homepage
+    [params.blog]
+        enable  = true
+        topTitle= "Historias detraz de maxive"
+        title   = "Documentos."
+        subtitle= "Maxive le permite crear, cambiar y mejorar la infraestructura de manera segura y predecible. Establece un paradigma de configuración declarativa de la infraestructura con un sencillo lenguaje el cual puedes compartir entre los miembros del equipo, tratando la infraestructura como código, editando, revisando, versionándola y haciendola evolucionar."
+
+    # Motivacion Section on acerca Page
+    [params.cta]
+        enable  = true
+        bg      = "imagenes/motivacion/motivacion-2.jpg"
+        title   = "Vamos a crear algo juntos"
+        subtitle= "Si tienes conocimientos y tiempo para asignarle a maxive, te invitamos a usarlo en tus proyectos y formes parte de la comunidad Maxive."
+        btnText = "Contactar con Maxive"
+
+    # contacto Section
+    [params.contacto]
+        enable  = true
+        topTitle= "Dejanos una Nota"
+        title   = "Contactos."
+        subtitle= "Maxive es una solución desarrollada en el Instituto de Tecnologías y Gobierno [igob]"
+        address = "Huánuco Centro <br> Provincia de Huánuco , Perú"
+        phone   = "(51) 966 236 236"
+        fax     = "+51 062 625 650"
+        facebook= "https://www.facebook.com/"
+        twitter = "https://twitter.com/"
+        linkedin= "https://www.linkedin.com/"
+        dribbble= "https://dribbble.com/"
+        instagram= "https://www.instagram.com/"
+        mapLatitude = "-9.929517"
+        mapLongitude= "-76.238632"
+        mapMarker   = "imagenes/marker.png"
+
+
+

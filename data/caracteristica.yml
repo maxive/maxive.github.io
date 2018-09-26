@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-gears
+    title : Automatización de la Configuración
+    description : >
+      Las herramientas de aprovisionamiento estándar de la industria, como las secuencias de comandos del shell, Chef, Puppet o Ansible, pueden instalar y configurar automáticamente la máquina virtual.
+  
+  - icon  : tf-ion-ios-paperplane-outline
+    title : Aprovisionamiento
+    description : >
+      Para lograr su magia, Maxive se para sobre los hombros de gigantes. Las máquinas se aprovisionan sobre VMware en baremetal o nubes como las de AWS, o cualquier otro proveedor.
+
+  - icon  : tf-ion-ios-lightbulb-outline
+    title : Listo para el IoT y Nazka
+    description : >
+      La internet de las cosas o IoT, asi como tecnologías de fuentes de verdad y criptomonedas como Nazka necesitan de Maxive por su compatibilidad natural con esos propósitos. 
